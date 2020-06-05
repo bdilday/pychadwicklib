@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setup(
     name="pychadwicklib",
-    version="0.1.0",
+    version="0.2.0",
     author="Ben Dilday",
     author_email="ben.dilday.phd@gmail.com",
     description="Python bindings to the Chadwick library",
@@ -20,5 +20,5 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
         "Operating System :: OS Independent",
     ],
-    install_requires=["skbuild", "ninja", "cmake", "wheel"]
+    install_requires=["scikit-build", "ninja", "cmake", "wheel" "setuptools"]
 )

@@ -1,4 +1,4 @@
 from .lib import _ChadwickLibrary
-_version = "0.1.0"
+_version = "0.2.0"
 ChadwickLibrary = _ChadwickLibrary()
 
