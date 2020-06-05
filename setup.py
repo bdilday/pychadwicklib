@@ -1,9 +1,6 @@
 from skbuild import setup
 from setuptools import find_packages
 
-import pathlib
-import os
-
 
 setup(
     name="pychadwicklib",

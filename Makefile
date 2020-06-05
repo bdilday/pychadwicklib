@@ -7,7 +7,7 @@ lint: install-dev
 	python -m flake8 pychadwicklib
 
 
-test: install-dev
+test: install
 	pytest tests/
 
 clean:
