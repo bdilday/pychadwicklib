@@ -3,7 +3,7 @@
 
 
 lint: install-dev
-	python -m black pychadwicklib/ tests/
+	python -m black pychadwicklib/ tests/ ./setup.py
 	python -m flake8 pychadwicklib
 
 
